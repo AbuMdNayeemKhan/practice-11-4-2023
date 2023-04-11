@@ -1,9 +1,4 @@
-// const pNote = document.querySelector(".pNote");
+const curretnElement = document.querySelector(".current");
 
-// console.log(pNote.parentNode);
-
-const parentDiv = document.querySelector(".parentDiv");
-
-// console.log(parentDiv.firstElementChild);
-// console.log(parentDiv.lastElementChild);
-console.log(parentDiv.children);
+console.log(curretnElement.nextElementSibling);
+console.log(curretnElement.previousElementSibling);
