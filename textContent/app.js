@@ -1,25 +1,7 @@
-// let menu = document.querySelector("#menu");
+let div = document.querySelector("div");
 
-// function createMenu(x){
-//     let li = document.createElement('li');
-//     li.textContent = x;
-//     return li;
-// }
+let innerText = div.innerText; // inner text only display that text are showing on web page.
 
-// menu.appendChild(createMenu("Home"));
-// menu.appendChild(createMenu("About"));
-// menu.appendChild(createMenu("Products"));
-// menu.appendChild(createMenu("Contact"));
+let textContent = div.textContent; // inner content can show all data form the document.
 
-let menu = document.querySelector("#menu");
-
-let arrowFun = (i) => {
-    let li = document.createElement('li');
-    li.textContent = i;
-    return li;
-}
-
-menu.appendChild(arrowFun("Home"));
-menu.appendChild(arrowFun("About"));
-menu.appendChild(arrowFun("Info"));
-menu.appendChild(arrowFun("Contact"));
+console.log(textContent);
